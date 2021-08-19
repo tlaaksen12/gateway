@@ -2,7 +2,7 @@ version: 0.2
 #
 env:
   variables:
-    _PROJECT_NAME: "user01-gateway-test"
+    _PROJECT_NAME: "user01-gateway-test2"
 
 phases:
   install:
