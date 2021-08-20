@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: user01-gateway-test2
-  namespace: hotelone
   labels:
     app: user01-gateway-test2
 spec:
