@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: gateway
+  name: user01-gateway-test2
   namespace: hotelone
   labels:
-    app: gateway 
+    app: user01-gateway-test2
 spec:
   type: LoadBalancer
   ports:
     - port: 8080
       targetPort: 8080
   selector:
-    app: gateway 
+    app: user01-gateway-test2
