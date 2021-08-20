@@ -2,7 +2,6 @@ apiVersion: v1
 kind: Service
 metadata:
   name: user01-gateway-test2
-  namespace: hotelone
   labels:
     app: user01-gateway-test2
 spec:
