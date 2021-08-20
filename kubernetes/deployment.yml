@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: gateway
+  name: user01-gateway-test2
   namespace: hotelone
   labels:
-    app: gateway
+    app: user01-gateway-test2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: gateway
+      app: user01-gateway-test2
   template:
     metadata:
       labels:
-        app: gateway
+        app: user01-gateway-test2
     spec:
       containers:
-        - name: gateway
+        - name: user01-gateway-test2
           image: 496278789073.dkr.ecr.ap-northeast-2.amazonaws.com/teamtwohotel2-gateway:latest
           imagePullPolicy: Always
           ports:
